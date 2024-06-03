@@ -62,8 +62,8 @@ const Course = mongoose.model("Course", yearSchema);
   
 /*Official Requirements:
 1. Retrieve all published backend courses and sort them alphabetically by their names
-2. Select and extract the name and specialization of each course. (not accomplish)
-3. Retrieve all published BSIS (Bachelor of Science in Information Systems) and BSIT (Bachelor of Science in Information Technology) courses from the curriculum.*/
+2. Select and extract the name and specialization of each course.
+3. Retrieve all published BSIS and BSIT courses from the curriculum.*/
 
 // Retrieve all published backend courses and sort them alphabetically by their names
 app.get("/CourseSort", async (req, res) => {
